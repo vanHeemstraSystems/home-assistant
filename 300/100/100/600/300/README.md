@@ -16,7 +16,7 @@ See [README.md](./200/README.md)
 
 ## 300 - Installing Docker Compose on MacOS
 
-More ...
+See [README.md](./300/README.md)
 
 ## 400 - Installing Portainer on MacOS
 
