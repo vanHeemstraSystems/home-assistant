@@ -15,7 +15,7 @@ sudo dscl . create /Groups/docker
 Now add your user account to that Docker group.
 
 ```
-sudo usermod -aG docker $USER
+sudo dseditgroup -o edit -a $USER -t user docker
 ```
 
 Now log out and back in again for the permission changes to take effect. If everything has worked properly, you should be able to re-download and run the Hello World Docker container without using sudo.
