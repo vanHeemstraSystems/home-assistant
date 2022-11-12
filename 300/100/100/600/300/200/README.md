@@ -2,7 +2,7 @@
 
 I find it easiest if I can manage Docker as a non-Root user – it means I don’t need to add *sudo* to the start of every command. This may reduce the security of my Docker environment, but because it’s running in my own network, inaccessible from the outside world I’m willing to accept that risk.
 
-To get Docker to work as a non-root user we need to add our user to the Docker group. Let’s do that now.
+To get Docker to work as a non-root user we need to add our user to the Docker group. Let’s do that now. See also https://stackoverflow.com/questions/70369278/how-to-add-the-current-user-to-the-docker-group-on-macos
 
 List the existing user groups with ```dscl . list /groups```
 
