@@ -8,6 +8,10 @@ Based on "Which Home Assistant install is right for you?" at https://www.youtube
 
 See [README.md](./100/README.md)
 
-## 200 - Install Home Assistant Core
+## 200 - Install Home Assistant Core using Python
 
 See [README.md](./200/README.md)
+
+## 300 - Install Home Assistant Core using Docker (Our choice !!)
+
+See [README.md](./300/README.md)
