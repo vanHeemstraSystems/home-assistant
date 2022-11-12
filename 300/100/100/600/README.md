@@ -2,15 +2,10 @@
 
 Based on "MacOS - Install Home Assistant Operating System" at https://www.home-assistant.io/installation/macos
 
-## Install Home Assistant Operating System
+## 100 - Install Home Assistant Operating System
 
-### DOWNLOAD THE APPROPRIATE IMAGE
+See [README.md](./100/README.md)
 
-- [VirtualBox](https://github.com/home-assistant/operating-system/releases/download/9.3/haos_ova-9.3.vdi.zip) (.vdi)
+## 200 - Install Home Assistant Core
 
-- [KVM](https://github.com/home-assistant/operating-system/releases/download/9.3/haos_ova-9.3.qcow2.xz) (.qcow2)
-
-Follow this guide if you already are running a supported virtual machine hypervisor. If you are not familiar with virtual machines we recommend installation Home Assistant OS directly on a [Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi) or an [ODROID](https://www.home-assistant.io/installation/odroid).
-
-
-More ...
+See [README.md](./200/README.md)
