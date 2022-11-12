@@ -20,7 +20,17 @@ sudo dseditgroup -o edit -a $USER -t user docker
 
 To test and see if the expected user has been added to the specific group (here: docker) one can use the command ```dscl . -read /Groups/docker GroupMembership``` to list all the members. However, it is not guaranteed to deliver the correct result, as explained [here](https://superuser.com/a/395738/588662).
 
-Now log out and back in again for the permission changes to take effect. If everything has worked properly, you should be able to re-download and run the Hello World Docker container without using sudo.
+Now log out and back in again for the permission changes to take effect. 
+
+If you have Docker Desktop installed, the docker daemon will be launched if you launch Docker Desktop.
+
+To do that, you can run in Terminal:
+
+```
+open -a Docker
+```
+
+If everything has worked properly, you should be able to re-download and run the Hello World Docker container without using sudo.
 
 ```
 docker run hello-world
