@@ -16,4 +16,4 @@ There are two alternative installation methods available for experienced users:
 
 The list below shows the installation method available based on the device and platform being used.
 
-If you are using the [Home Assistant Blue](https://www.home-assistant.io/blue), the Home Assistant Operating System is already installed. [Continue to onboarding]().
+If you are using the [Home Assistant Blue](https://www.home-assistant.io/blue), the Home Assistant Operating System is already installed. [Continue to onboarding](https://github.com/vanHeemstraSystems/home-assistant/tree/main/300/100/200).
