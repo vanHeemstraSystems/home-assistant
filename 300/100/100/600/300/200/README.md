@@ -4,10 +4,12 @@ I find it easiest if I can manage Docker as a non-Root user – it means I don�
 
 To get Docker to work as a non-root user we need to add our user to the Docker group. Let’s do that now.
 
-First, create the Docker group if it doesn’t already exist.
+List the existing user groups with ```dscl . list /groups```
+
+To create a user group (here: docker), if it doesn't exist use the command ```sudo dscl . create /Groups/<groupName>```.
 
 ```
-sudo groupadd docker
+sudo dscl . create /Groups/docker
 ```
 
 Now add your user account to that Docker group.
