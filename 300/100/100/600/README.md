@@ -2,7 +2,9 @@
 
 Based on "MacOS - Install Home Assistant Operating System" at https://www.home-assistant.io/installation/macos
 
-## 100 - Install Home Assistant Operating System
+Based on "Which Home Assistant install is right for you?" at https://www.youtube.com/watch?v=i72K1wyuTfg
+
+## 100 - Install Home Assistant Operating System (Recommended)
 
 See [README.md](./100/README.md)
 
