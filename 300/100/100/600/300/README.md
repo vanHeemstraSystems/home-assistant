@@ -24,7 +24,7 @@ See [README.md](./400/README.md)
 
 ## 500 - Installing Home Assistant via Docker Compose on MacOS
 
-More ...
+See [README.md](./500/README.md)
 
 ## 600 - Managing your Docker Containers from within Home Assistant on MacOS
 
