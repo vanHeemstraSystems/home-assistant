@@ -7,18 +7,24 @@ To install Portainer, we need to first create a Docker Compose YAML file. This f
 I like to keep all my Docker configuration files in my /opt directory on my Ubuntu server, so this is where we will create our Docker Compose file. First, let’s navigate to the /opt directory
 
 ```
-cd /opt
+$ cd /opt
 ```
 
-Then we will use the Nano text editor to create a new file called docker-compose.yaml
+In here we will create a new directory:
 
 ```
-sudo nano docker-compose.yaml
+$ mkdir portainer
 ```
 
-Now copy and paste this configuration information into the Nano text editor. If you want more information about what all these keys do, check out the YouTube video I linked at the top of this post. I go through all these items in more details.
+Then we will use the Nano text editor to create a new file called docker-compose.yml
 
-You will see that this will map a directory from /opt/portainer on your Ubuntu machine to /data inside the Portainer container. This is great because it means you can recreate your container at any time and all of the configuration data will be safe and sound on your host computer. I make sure that all of my containers have their configuration data stored in its own folder in the /opt directory so I can easily update configurations and take backups.
+```
+$ sudo nano docker-compose.yml
+```
+
+Now copy and paste this configuration information into the Nano text editor. If you want more information about what all these keys do, check out the [YouTube video](https://www.youtube.com/watch?v=S-itdbqwj4I) I linked at the top of this post. I go through all these items in more details.
+
+You will see that this will map a directory from /opt/portainer on your MacOS machine to /data inside the Portainer container. This is great, because it means you can recreate your container at any time and all of the configuration data will be safe and sound on your host computer. I make sure that all of my containers have their configuration data stored in its own folder in the /opt directory so I can easily update configurations and take backups.
 
 ```
 version: '3.0'
@@ -27,14 +33,21 @@ services:
   portainer:
     container_name: portainer
     image: portainer/portainer-ce
-    restart: always
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:  
+      - proxy
     ports:
       - "9000:9000/tcp"
-    environment:
-      - TZ=Europe/London
     volumes:
+      - /etc/localtime:etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock
-      - /opt/portainer:/data
+      - ./data:/data
+
+networks:
+  proxy:
+    external: true
 ```
 
 Now press CTRL + X to exit Nano and Y to save the file. If you do an ls -l on the /opt directory you should now see the file there.
