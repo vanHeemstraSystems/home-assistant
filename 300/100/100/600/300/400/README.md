@@ -50,9 +50,9 @@ networks:
     external: true
 ```
 
-Now press CTRL + X to exit Nano and Y to save the file. If you do an ls -l on the /opt directory you should now see the file there.
+Now press CTRL + X to exit Nano and Y to save the file. If you do an ls -l on the /opt/portainer directory you should now see the file there.
 
-We can now start Docker using the following command. Make sure you are in the /opt directory when you run this command, as it needs to be run from the same place that you keep your docker-compose.yaml file.
+We can now start Docker using the following command. Make sure you are in the /opt/portainer directory when you run this command, as it needs to be run from the same place that you keep your docker-compose.yaml file.
 
 ```
 docker-compose up -d
@@ -60,7 +60,7 @@ docker-compose up -d
 
 This will bring up the Docker containers that you have specified in the compose file, and the -d will start them in Detached mode which means they will run in the background.
 
-You should now be able to navigate to the IP address of your Ubuntu Server in a web browser on port 9000
+You should now be able to navigate to the IP address of your MacOS Server in a web browser on port 9000
 
 ```
 http://<IPADDRESS>:9000/
@@ -68,8 +68,8 @@ http://<IPADDRESS>:9000/
   
 The first time you load Portainer you will be asked to create a username and password. This will only need to be done the first time you load it up.
   
-Now select the LOCAL option, so that you can start managing containers locally on your Ubuntu server, and click Connect.
+Now select the LOCAL option, so that you can start managing containers locally on your MacOS server, and click Connect.
 
 And you should now see Portainer running! You can select Containers in the left hand navigation menu and see your Portainer container running!
 
-You’ve done it! You’ve got Docker, Docker Compose and Portainer running on your Linux server! You have everything you need to get started with Home Assistant and any other Docker containers that you wish to run!
+You’ve done it! You’ve got Docker, Docker Compose and Portainer running on your MacOS server! You have everything you need to get started with Home Assistant and any other Docker containers that you wish to run!
