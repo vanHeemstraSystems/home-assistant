@@ -15,3 +15,7 @@ See [README.md](./200/README.md)
 ## 300 - Install Home Assistant Core using Docker (Our choice !!)
 
 See [README.md](./300/README.md)
+
+## 400 - Install Home Assistant App
+
+See [README.md](./400/README.md)
