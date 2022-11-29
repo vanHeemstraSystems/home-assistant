@@ -34,3 +34,5 @@ If you are using the [Home Assistant Blue](https://www.home-assistant.io/blue), 
 See [README.md](./600/README.md)
 
 ## 700 - Linux
+
+See [README.md](./700/README.md)
