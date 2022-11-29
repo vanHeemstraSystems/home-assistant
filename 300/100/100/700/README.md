@@ -4,7 +4,7 @@ We will follow this tutorial ("[Installing Home Assistant Supervised directly on
 
 *Note*: If when trying to connect to the Debian VM from outside the VM with SSH, you get a "connection refused", make sure to follow the advice at https://linuxhint.com/fix_connection_refused_ubuntu/ We fixed it by just installing and starting OpenSSL as explained in the link.
 
-*Note*: If when trying to change to the root user with "su" and entering the password (of the first user that was created in Debian VM) you get a "su: Authentication failure", use "sudo su" instead with the password.
+*Note*: If when trying to change to the root user with "su" and entering the password (of the first user that was created in Debian VM, when using Parallels that user is called "parallels" by default) you get a "su: Authentication failure", use "sudo su" instead with the password.
 
 *Note*: Regarding the applications to be installed read the documentation as the video has some old/out-of-date mentionings; see https://github.com/home-assistant/supervised
 
