@@ -6,3 +6,5 @@ We will follow this tutorial ("[Installing Home Assistant Supervised directly on
 
 *Note*: If when trying to change to the root user with "su" and entering the password (of the first user that was created in Debian VM) you get a "su: Authentication failure", use "sudo su" instead with the password.
 
+*Note*: Regarding the applications to be installed read the documentation as the video has some old/out-of-date mentionings; see https://github.com/home-assistant/supervised
+
