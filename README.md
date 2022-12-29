@@ -9,6 +9,8 @@ Based on "Installing Lovelace Plugins" at https://www.danielmartingonzalez.com/e
 
 Based on "Material Design Icons" at https://pictogrammers.github.io/@mdi/font/6.9.96/
 
+Based on "MDI Lookup" at https://mdi.bessarabov.com/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
