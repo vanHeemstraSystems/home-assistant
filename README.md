@@ -11,6 +11,8 @@ Based on "Material Design Icons" at https://pictogrammers.github.io/@mdi/font/6.
 
 Based on "MDI Lookup" at https://mdi.bessarabov.com/
 
+Based on "Home Assistant Community Store (HACS)" at https://hacs.xyz/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
