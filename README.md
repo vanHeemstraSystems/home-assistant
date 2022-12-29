@@ -1,8 +1,9 @@
 home-assistant
 # Home Assistant
 
-
 Based on "Home Assistant" at https://www.home-assistant.io/
+
+Based on "card-tools version 2" at https://github.com/thomasloven/lovelace-card-tools
 
 ## 100 - Introduction
 
