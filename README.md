@@ -7,6 +7,8 @@ Based on "card-tools version 2" at https://github.com/thomasloven/lovelace-card-
 
 Based on "Installing Lovelace Plugins" at https://www.danielmartingonzalez.com/en/installing-lovelace-plugins
 
+Based on "Material Design Icons" at https://pictogrammers.github.io/@mdi/font/6.9.96/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
