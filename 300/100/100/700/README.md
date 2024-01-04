@@ -5,7 +5,7 @@
 **TIP**: To be on the save side, (re-)install the below:
 
 ```
-$ apt reinstall systemd-journal-remote
+$ sudo apt reinstall systemd-journal-remote
 ```
 
 **WARNING**: As at January 2024 the non-conflicting version of Home Assistant Supervised is **1.4.3** (not 1.5.0 or later). Use this version, unless a future version installs flawless.
