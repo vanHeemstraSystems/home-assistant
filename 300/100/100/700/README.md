@@ -19,5 +19,3 @@ $ sudo dpkg -i --ignore-depends=systemd-resolved ./homeassistant-supervised.deb
 ```
 
 Once it installs, edit ```/var/lib/dpkg/status``` and remove ```system-resolved``` from homeassistant-supervised from ```Depends```.
-```
-
