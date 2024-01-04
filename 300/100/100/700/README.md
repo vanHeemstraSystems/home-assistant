@@ -2,6 +2,8 @@
 
 **TIP**: To uninstall a (previous) Home Assistant Supervised installation, use the uninstall script found at https://gist.github.com/stemsmit/944495cb659e3925d1ea72d457c28d8e
 
+**WARNING**: As at January 2024 the non-conflicting version of Home Assistant Supervised is **1.4.3** (not 1.5.0 or later). Use this version, unless a future version installs flawless.
+
 We will follow this tutorial ("[Installing Home Assistant Supervised directly on Debian 11](https://www.youtube.com/watch?v=ivBPS5-zi04)") to install Home Assistent on a Debian GNU Linux 11.3 virtual machine that has been created from Parallels on a Mac Mini
 
 *Note*: If when trying to connect to the Debian VM from outside the VM with SSH, you get a "connection refused", make sure to follow the advice at https://linuxhint.com/fix_connection_refused_ubuntu/ We fixed it by just installing and starting OpenSSL as explained in the link.
