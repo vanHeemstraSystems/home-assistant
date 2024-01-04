@@ -35,4 +35,4 @@ Once it installs, edit ```/var/lib/dpkg/status``` and remove ```system-resolved`
 
 Part of the installation includes Portainer.
 
-Should Portainer have been installed previously, and the account ```admin``` is not accepting any passwords, you can reset the password following https://omar2cloud.github.io/rasp/psswd/
+Should Portainer have been installed previously, and the account ```admin``` is not accepting any passwords, you can reset the password following https://omar2cloud.github.io/rasp/psswd/ and/or https://docs.portainer.io/advanced/reset-admin
