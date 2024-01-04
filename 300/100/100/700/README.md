@@ -12,7 +12,6 @@ We will follow this tutorial ("[Installing Home Assistant Supervised directly on
 
 **WARNING**: If during the installation of home assistant supervised you get the error ```homeassistant-supervised depends on systemd-resolved; however: Package systemd-resolved is not installed.``` follow this advise:
 
-```
 Debian 11 already has systemd-resolved. Install using:
 
 ```
