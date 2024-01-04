@@ -36,3 +36,9 @@ Once it installs, edit ```/var/lib/dpkg/status``` and remove ```system-resolved`
 Part of the installation includes Portainer.
 
 Should Portainer have been installed previously, and the account ```admin``` is not accepting any passwords, you can reset the password following https://omar2cloud.github.io/rasp/psswd/ and/or https://docs.portainer.io/advanced/reset-admin
+
+To avoid **Home Assistant** stating that you are working in an *unhealthy system* (most likely because we have Portainer running on the same Docker host) you can surpress this notion as follows:
+
+```
+$ ha jobs options --ignore-conditions healthy
+```
