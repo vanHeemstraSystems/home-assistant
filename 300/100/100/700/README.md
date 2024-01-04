@@ -30,3 +30,9 @@ $ sudo dpkg -i --ignore-depends=systemd-resolved ./homeassistant-supervised.deb
 ```
 
 Once it installs, edit ```/var/lib/dpkg/status``` and remove ```system-resolved``` from homeassistant-supervised from ```Depends```.
+
+## Portainer
+
+Part of the installation includes Portainer.
+
+Should Portainer have been installed previously, and the account ```admin``` is not accepting any passwords, you can reset the password following https://omar2cloud.github.io/rasp/psswd/
