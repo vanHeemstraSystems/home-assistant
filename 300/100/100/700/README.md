@@ -6,7 +6,12 @@
 
 ```
 $ sudo apt reinstall systemd-journal-remote
+$ sudo systemctl enable systemd-journal-gatewayd.socket
+$ sudo systemctl start systemd-journal-gatewayd.socket
+$ sudo systemctl is-enabled systemd-journal-gatewayd.socket
 ```
+
+The outcome should be: ```enabled```.
 
 **WARNING**: As at January 2024 the non-conflicting version of Home Assistant Supervised is **1.4.3** (not 1.5.0 or later). Use this version, unless a future version installs flawless.
 
