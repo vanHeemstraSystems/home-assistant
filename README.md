@@ -13,6 +13,8 @@ Based on "MDI Lookup" at https://mdi.bessarabov.com/
 
 Based on "Home Assistant Community Store (HACS)" at https://hacs.xyz/
 
+Based on "Home Assistant Beginner’s Guide 2022" at https://www.welcometothefuture.one/home-assistant-beginners-guide-2022
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
