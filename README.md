@@ -15,6 +15,8 @@ Based on "Home Assistant Community Store (HACS)" at https://hacs.xyz/
 
 Based on "Home Assistant Beginner’s Guide 2022" at https://www.welcometothefuture.one/home-assistant-beginners-guide-2022
 
+Based on "Deep Dive of Home Assistant installations and hardware options" at https://www.youtube.com/watch?v=Q2QW3JzLp58&list=PLFUWvL5pLynNiF92drUcIL_IcEMHbiBtf&index=22
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
