@@ -1,6 +1,9 @@
 home-assistant
 # Home Assistant
 
+> Open source home automation that puts local control and privacy first.<br/>
+> Powered by a worldwide community of tinkerers and DIY enthusiasts.
+
 Based on "Home Assistant" at https://www.home-assistant.io/
 
 Based on "card-tools version 2" at https://github.com/thomasloven/lovelace-card-tools
